@@ -1,6 +1,6 @@
 {
   "name": "js-band-hw-task-4",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Ciklum University: JS Band Internship. Homework task #4",
   "main": "webpack.config.js",
   "scripts": {
