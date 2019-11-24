@@ -55,7 +55,7 @@ $ npm run dev
 ## Available console commands
 For build project:
 ```sh
-$ npm run dev
+$ npm run build
 ```
 For testing using [Jest](https://jestjs.io/) tool:
 ```sh
@@ -67,7 +67,7 @@ $ npm run lint
 ```
 For fix errors which [Eslint](https://eslint.org/) found:
 ```sh
-$ npm run lint
+$ npm run fix
 ```
 For commit use [Commitizen](https://github.com/commitizen/cz-cli) but before commit there will be a check for [Eslint](https://eslint.org/) and then a test tool:
 ```sh
