@@ -7,7 +7,7 @@
     "test": "jest test",
     "lint": "eslint --ext .js,.jsx src/;exit 0",
     "fix": "eslint src --fix",
-    "commit": "npx git-cz",
+    "commit": "npx git-cz ;exit 0",
     "precommit":"npm run lint && npm run test;exit 0",
     "release": "standard-version",
     "dev": "webpack-dev-server --config webpack/webpack.dev.js",

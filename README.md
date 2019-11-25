@@ -69,6 +69,10 @@ For fix errors which [Eslint](https://eslint.org/) found:
 ```sh
 $ npm run fix
 ```
+For commit use [Commitizen](https://github.com/commitizen/cz-cli) but before commit there will be a check for [Eslint](https://eslint.org/) and then a test tool:
+```sh
+$ npm run commit
+```
 
 ## Usage
 - Add new ship
@@ -81,6 +85,7 @@ $ npm run fix
  - [Jest](https://jestjs.io/) - tool for test scripts
  - [Eslint](https://eslint.org/) - tool for identifying and reporting on patterns found in ECMAScript/JavaScript code, with the goal of making code more consistent and avoiding bugs.
  - [Commitizen](https://github.com/commitizen/cz-cli) - tool for prompted to fill out any required commit fields at commit time
+ - [Husky](https://github.com/typicode/husky) - tool that can prevent bad git commit, git push and more
 
 ## Scripts description
 * `./src/index.html` - main html file;
