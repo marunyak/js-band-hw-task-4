@@ -69,10 +69,6 @@ For fix errors which [Eslint](https://eslint.org/) found:
 ```sh
 $ npm run fix
 ```
-For commit use [Commitizen](https://github.com/commitizen/cz-cli) but before commit there will be a check for [Eslint](https://eslint.org/) and then a test tool:
-```sh
-$ npm run commit
-```
 
 ## Usage
 - Add new ship
