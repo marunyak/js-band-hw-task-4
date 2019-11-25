@@ -1,6 +1,6 @@
 {
   "name": "js-band-hw-task-4",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Ciklum University: JS Band Internship. Homework task #4",
   "main": "webpack.config.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "lint": "eslint --ext .js,.jsx src/;exit 0",
     "fix": "eslint src --fix",
     "commit": "npx git-cz ;exit 0",
-    "precommit":"npm run lint && npm run test;exit 0",
+    "precommit": "npm run lint && npm run test;exit 0",
     "release": "standard-version",
     "dev": "webpack-dev-server --config webpack/webpack.dev.js",
     "build": "webpack --config webpack/webpack.prod.js",
